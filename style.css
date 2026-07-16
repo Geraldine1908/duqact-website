@@ -1,0 +1,294 @@
+
+    body {
+    background-color: white;
+}
+
+h1 {
+    color:black;
+    text-align: center;
+}
+p {
+    color: black;
+}
+h2 {
+    color:black;
+}
+
+button {
+    background-color: white;
+    color: white;
+    background: black;
+    padding: 12px 12px 12px;
+    border: none;
+    border-radius: 8px;
+    gap: 30px;
+}
+     button:hover{
+            transform: scale(1.1);
+            background-color:yellow;
+            cursor:pointer;
+         }
+         img {
+    float: right;
+}
+nav{
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding:20px;
+    background-color: white;
+padding:20px;
+border-radius: 10px;
+height: 20px;
+
+border-bottom: 1px solid rgba(29, 14, 14, 0.145);
+}
+.right{
+    margin-left: auto;
+    align-items: left;
+}
+nav ul{
+    color:white;
+    display: flex;
+    list-style-type: none;
+    gap: 20px;
+}
+
+nav  ul li a{
+    color:black;
+    text-decoration:none;
+}
+nav a:hover {
+    color: yellow;
+}
+nav a{
+    text-decoration: none;
+    color: white;
+}
+nav a{
+    color:#222;
+}
+.header {
+  
+  color: white;
+  padding: 2rem;
+  text-align: center;
+}
+.foot-grid{
+    display:flex;
+    flex-direction:row;
+    justify-content: space-between;
+    background-color:#222;
+    color:white;
+    text-align:center;
+    padding:40px;
+    gap: 70 px;
+margin-top:200px;
+}
+
+.foot-grid ul li{
+    margin-top:10px;
+    text-decoration:none;
+}
+
+
+.foot-grid a {
+    color:white;
+    text-decoration:none;
+    margin:15px;
+}
+.foot-sum p{
+    color: white;
+}
+
+.foot-grid ul li a:hover{
+    color:yellow;
+}
+.foot-column li{
+    list-style-type: none;
+}
+
+main{
+    flex:1;
+    margin-top: 40px;
+}
+.high{
+    color:yellow;
+}
+
+.features{
+    width:85%;
+    margin:auto;
+    padding:80px 0;
+    text-align:center;
+}
+
+.features h2{
+    font-size:40px;
+    margin-bottom:15px;
+}
+
+.subtitle{
+    color:black;
+    margin-bottom:50px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.features-grid, .parts{
+ display:grid;
+ color:white;
+grid-template-columns:repeat(3,1fr);
+gap:30px;
+}
+.partnersss{
+    display:flex;
+    flex-direction : row;
+    gap:30px;
+    padding: 60px;
+}
+
+.features-card , .parts1, .pp{
+background-color: black;
+padding:35px;
+border-radius:15px;
+ text-align:left;
+box-shadow:0 4px 10px rgba(0,0,0,0.08);
+border: 2px solid white;
+background:#f8f9fa;
+margin: 0 auto 10px;
+}
+
+
+
+.features-card h3{
+color:black;
+    margin-bottom:15px;
+}
+
+.features-card p{
+
+    color:black;
+line-height:1.6;
+}
+
+li {
+    color: white;
+    
+}
+@media (max-width:900px){
+
+    .features-grid{
+
+        grid-template-columns:repeat(2,1fr);
+
+    }
+
+}
+
+@media (max-width:600px){
+
+    .features-grid{
+
+        grid-template-columns:1fr;
+
+    }
+
+}
+.contact-section{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    width: 90%;
+    margin: auto;
+    padding: 60px ;
+}
+.contact-info img{
+    width:100%;
+    border-radius:10px;
+}
+.contact-form form{
+    display:flex;
+    flex-direction:column;
+}
+.contact-form input,
+.contact-form textarea{
+    width:100%;
+    padding:15px;
+    margin-bottom:20px;
+    border:1px solid #ccc;
+    border-radius:8px;
+    font-size:16px;
+}
+@media(max-width:768px){
+
+    .contact-section{
+        grid-template-columns:1fr;
+    }
+
+}
+.contact-info{
+    display:flex;
+    flex-direction:column;
+    gap:20px;
+}
+.office,
+.email,
+.phone{
+    background:#f8f9fa;
+    padding:20px;
+    border-radius:10px;
+}
+.about{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.images img{
+border-radius: 40px;
+margin-right: 200px;
+}
+.theory{
+    margin-left: 50px;
+}
+.bttn{
+    display:inline-block;
+    background-color:white;
+    color:black;
+    border-radius: 10px;
+    text-decoration: none;
+    border: solid white;
+    }
+    .location {
+    width: 90%;
+    max-width: 1000px;
+    margin: 50px auto;
+    text-align: center;
+}
+.ii{
+    border-radius: 10px;
+    width:12px;
+}
+
+.location h2 {
+    margin-bottom: 20px;
+}
+
+.location iframe {
+    width: 100%;
+    height: 450px;
+    border: none;
+    border-radius: 12px;
+}
+.icon{
+    display: flex;
+    flex-direction:row;
+}
+.icon img{
+    width: 30px;
+    height:30px;
+    display: block;
+border-radius: 10px;
+}
+
+
